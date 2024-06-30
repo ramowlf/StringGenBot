@@ -137,13 +137,13 @@ async def gen_session(
     except FloodWait as f:
         return await Anony.send_message(
             user_id,
-            f"» ғᴀɪʟᴇᴅ ᴛᴏ sᴇɴᴅ ᴄᴏᴅᴇ ғᴏʀ ʟᴏɢɪɴ.\n\nᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ғᴏʀ {f.value or f.x} sᴇᴄᴏɴᴅs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.",
+            f"» 𝐺𝑖𝑟𝑖𝑠̧ 𝑖𝑐̧𝑖𝑛 𝑘𝑜𝑑 𝑔𝑜̈𝑛𝑑𝑒𝑟𝑚𝑒 𝑏𝑎𝑠̧𝑎𝑟𝚤𝑠𝚤𝑧 𝑜𝑙𝑑𝑢.\n\n𝐿𝑢̈𝑡𝑓𝑒𝑛 {f.value or f.x} 𝑠𝑎𝑛𝑖𝑦𝑒 𝑏𝑒𝑘𝑙𝑒𝑦𝑖𝑛.",
             reply_markup=retry_key,
         )
     except (ApiIdInvalid, ApiIdInvalidError, ApiIdInvalid1):
         return await Anony.send_message(
             user_id,
-            "» ᴀᴘɪ ɪᴅ ᴏʀ ᴀᴘɪ ʜᴀsʜ ɪs ɪɴᴠᴀʟɪᴅ.\n\nᴘʟᴇᴀsᴇ sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ ʏᴏᴜʀ sᴇssɪᴏɴ ᴀɢᴀɪɴ.",
+            "» 𝐴𝑝𝑖 ℎ𝑎𝑠ℎ 𝑣𝑒𝑦𝑎 𝐴𝑝𝑖 𝑖𝑑 𝑦𝑎𝑛𝑙𝚤𝑠̧.\n\n𝑙𝑢̈𝑡𝑓𝑒𝑛 𝑡𝑒𝑘𝑟𝑎𝑟 𝑑𝑒𝑛𝑒𝑦𝑖𝑛.",
             reply_markup=retry_key,
         )
     except (PhoneNumberInvalid, PhoneNumberInvalidError, PhoneNumberInvalid1):
