@@ -8,7 +8,7 @@ from StringGen.utils import add_served_user, keyboard
 @Anony.on_message(filters.command("start") & filters.private & filters.incoming)
 async def f_start(_, message: Message):
     await message.reply_text(
-        text=f"ʜᴇʏ {message.from_user.first_name},\n\n๏ ᴛʜɪs ɪs {Anony.mention},\nAɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.",
+        text=f"𝑀𝑒𝑟ℎ𝑎𝑏𝑎 {message.from_user.first_name},\n\n๏ 𝑏𝑢 𝑏𝑜𝑡 {Anony.mention},\n𝑇𝑒𝑙𝑒𝑔𝑟𝑎𝑚 𝑆𝑡𝑟𝑖𝑛𝑔 𝑠𝑒𝑠𝑠𝑖𝑜𝑛 𝑜𝑙𝑢𝑠̧𝑡𝑢𝑟𝑚𝑎 𝑏𝑜𝑡𝑢𝑑𝑢𝑟.",
         reply_markup=keyboard,
         disable_web_page_preview=True,
     )
